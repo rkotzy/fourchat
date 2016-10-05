@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349EB8A11DA486BE00DDE95E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8A01DA486BE00DDE95E /* AppDelegate.swift */; };
+		349EB8A31DA486BE00DDE95E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8A21DA486BE00DDE95E /* ViewController.swift */; };
+		349EB8A61DA486BE00DDE95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349EB8A41DA486BE00DDE95E /* Main.storyboard */; };
+		349EB8A81DA486BE00DDE95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349EB8A71DA486BE00DDE95E /* Assets.xcassets */; };
+		349EB8AB1DA486BE00DDE95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349EB8A91DA486BE00DDE95E /* LaunchScreen.storyboard */; };
+		349EB8B61DA486BE00DDE95E /* FourchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8B51DA486BE00DDE95E /* FourchatTests.swift */; };
+		349EB8C11DA486BE00DDE95E /* FourchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8C01DA486BE00DDE95E /* FourchatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349EB8B21DA486BE00DDE95E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349EB8951DA486BE00DDE95E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349EB89C1DA486BE00DDE95E;
+			remoteInfo = Fourchat;
+		};
+		349EB8BD1DA486BE00DDE95E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349EB8951DA486BE00DDE95E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349EB89C1DA486BE00DDE95E;
+			remoteInfo = Fourchat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		349EB89D1DA486BE00DDE95E /* Fourchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fourchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		349EB8A01DA486BE00DDE95E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		349EB8A21DA486BE00DDE95E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		349EB8A51DA486BE00DDE95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		349EB8A71DA486BE00DDE95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		349EB8AA1DA486BE00DDE95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		349EB8AC1DA486BE00DDE95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349EB8B11DA486BE00DDE95E /* FourchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		349EB8B51DA486BE00DDE95E /* FourchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourchatTests.swift; sourceTree = "<group>"; };
+		349EB8B71DA486BE00DDE95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349EB8BC1DA486BE00DDE95E /* FourchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		349EB8C01DA486BE00DDE95E /* FourchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourchatUITests.swift; sourceTree = "<group>"; };
+		349EB8C21DA486BE00DDE95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349EB89A1DA486BE00DDE95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349EB8AE1DA486BE00DDE95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349EB8B91DA486BE00DDE95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		349EB8941DA486BE00DDE95E = {
+			isa = PBXGroup;
+			children = (
+				349EB89F1DA486BE00DDE95E /* Fourchat */,
+				349EB8B41DA486BE00DDE95E /* FourchatTests */,
+				349EB8BF1DA486BE00DDE95E /* FourchatUITests */,
+				349EB89E1DA486BE00DDE95E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		349EB89E1DA486BE00DDE95E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349EB89D1DA486BE00DDE95E /* Fourchat.app */,
+				349EB8B11DA486BE00DDE95E /* FourchatTests.xctest */,
+				349EB8BC1DA486BE00DDE95E /* FourchatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		349EB89F1DA486BE00DDE95E /* Fourchat */ = {
+			isa = PBXGroup;
+			children = (
+				349EB8A01DA486BE00DDE95E /* AppDelegate.swift */,
+				349EB8A21DA486BE00DDE95E /* ViewController.swift */,
+				349EB8A41DA486BE00DDE95E /* Main.storyboard */,
+				349EB8A71DA486BE00DDE95E /* Assets.xcassets */,
+				349EB8A91DA486BE00DDE95E /* LaunchScreen.storyboard */,
+				349EB8AC1DA486BE00DDE95E /* Info.plist */,
+			);
+			path = Fourchat;
+			sourceTree = "<group>";
+		};
+		349EB8B41DA486BE00DDE95E /* FourchatTests */ = {
+			isa = PBXGroup;
+			children = (
+				349EB8B51DA486BE00DDE95E /* FourchatTests.swift */,
+				349EB8B71DA486BE00DDE95E /* Info.plist */,
+			);
+			path = FourchatTests;
+			sourceTree = "<group>";
+		};
+		349EB8BF1DA486BE00DDE95E /* FourchatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				349EB8C01DA486BE00DDE95E /* FourchatUITests.swift */,
+				349EB8C21DA486BE00DDE95E /* Info.plist */,
+			);
+			path = FourchatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349EB89C1DA486BE00DDE95E /* Fourchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349EB8C51DA486BE00DDE95E /* Build configuration list for PBXNativeTarget "Fourchat" */;
+			buildPhases = (
+				349EB8991DA486BE00DDE95E /* Sources */,
+				349EB89A1DA486BE00DDE95E /* Frameworks */,
+				349EB89B1DA486BE00DDE95E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fourchat;
+			productName = Fourchat;
+			productReference = 349EB89D1DA486BE00DDE95E /* Fourchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		349EB8B01DA486BE00DDE95E /* FourchatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349EB8C81DA486BE00DDE95E /* Build configuration list for PBXNativeTarget "FourchatTests" */;
+			buildPhases = (
+				349EB8AD1DA486BE00DDE95E /* Sources */,
+				349EB8AE1DA486BE00DDE95E /* Frameworks */,
+				349EB8AF1DA486BE00DDE95E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349EB8B31DA486BE00DDE95E /* PBXTargetDependency */,
+			);
+			name = FourchatTests;
+			productName = FourchatTests;
+			productReference = 349EB8B11DA486BE00DDE95E /* FourchatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		349EB8BB1DA486BE00DDE95E /* FourchatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349EB8CB1DA486BE00DDE95E /* Build configuration list for PBXNativeTarget "FourchatUITests" */;
+			buildPhases = (
+				349EB8B81DA486BE00DDE95E /* Sources */,
+				349EB8B91DA486BE00DDE95E /* Frameworks */,
+				349EB8BA1DA486BE00DDE95E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349EB8BE1DA486BE00DDE95E /* PBXTargetDependency */,
+			);
+			name = FourchatUITests;
+			productName = FourchatUITests;
+			productReference = 349EB8BC1DA486BE00DDE95E /* FourchatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349EB8951DA486BE00DDE95E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ryan Kotzebue";
+				TargetAttributes = {
+					349EB89C1DA486BE00DDE95E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					349EB8B01DA486BE00DDE95E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 349EB89C1DA486BE00DDE95E;
+					};
+					349EB8BB1DA486BE00DDE95E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 349EB89C1DA486BE00DDE95E;
+					};
+				};
+			};
+			buildConfigurationList = 349EB8981DA486BE00DDE95E /* Build configuration list for PBXProject "Fourchat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 349EB8941DA486BE00DDE95E;
+			productRefGroup = 349EB89E1DA486BE00DDE95E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349EB89C1DA486BE00DDE95E /* Fourchat */,
+				349EB8B01DA486BE00DDE95E /* FourchatTests */,
+				349EB8BB1DA486BE00DDE95E /* FourchatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349EB89B1DA486BE00DDE95E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349EB8AB1DA486BE00DDE95E /* LaunchScreen.storyboard in Resources */,
+				349EB8A81DA486BE00DDE95E /* Assets.xcassets in Resources */,
+				349EB8A61DA486BE00DDE95E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349EB8AF1DA486BE00DDE95E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349EB8BA1DA486BE00DDE95E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349EB8991DA486BE00DDE95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349EB8A31DA486BE00DDE95E /* ViewController.swift in Sources */,
+				349EB8A11DA486BE00DDE95E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349EB8AD1DA486BE00DDE95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349EB8B61DA486BE00DDE95E /* FourchatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349EB8B81DA486BE00DDE95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349EB8C11DA486BE00DDE95E /* FourchatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		349EB8B31DA486BE00DDE95E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349EB89C1DA486BE00DDE95E /* Fourchat */;
+			targetProxy = 349EB8B21DA486BE00DDE95E /* PBXContainerItemProxy */;
+		};
+		349EB8BE1DA486BE00DDE95E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349EB89C1DA486BE00DDE95E /* Fourchat */;
+			targetProxy = 349EB8BD1DA486BE00DDE95E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		349EB8A41DA486BE00DDE95E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349EB8A51DA486BE00DDE95E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		349EB8A91DA486BE00DDE95E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349EB8AA1DA486BE00DDE95E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		349EB8C31DA486BE00DDE95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		349EB8C41DA486BE00DDE95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349EB8C61DA486BE00DDE95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fourchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kotz.Fourchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		349EB8C71DA486BE00DDE95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fourchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kotz.Fourchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		349EB8C91DA486BE00DDE95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FourchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kotz.FourchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fourchat.app/Fourchat";
+			};
+			name = Debug;
+		};
+		349EB8CA1DA486BE00DDE95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FourchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kotz.FourchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fourchat.app/Fourchat";
+			};
+			name = Release;
+		};
+		349EB8CC1DA486BE00DDE95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FourchatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kotz.FourchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Fourchat;
+			};
+			name = Debug;
+		};
+		349EB8CD1DA486BE00DDE95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FourchatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kotz.FourchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Fourchat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349EB8981DA486BE00DDE95E /* Build configuration list for PBXProject "Fourchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349EB8C31DA486BE00DDE95E /* Debug */,
+				349EB8C41DA486BE00DDE95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349EB8C51DA486BE00DDE95E /* Build configuration list for PBXNativeTarget "Fourchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349EB8C61DA486BE00DDE95E /* Debug */,
+				349EB8C71DA486BE00DDE95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		349EB8C81DA486BE00DDE95E /* Build configuration list for PBXNativeTarget "FourchatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349EB8C91DA486BE00DDE95E /* Debug */,
+				349EB8CA1DA486BE00DDE95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		349EB8CB1DA486BE00DDE95E /* Build configuration list for PBXNativeTarget "FourchatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349EB8CC1DA486BE00DDE95E /* Debug */,
+				349EB8CD1DA486BE00DDE95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 349EB8951DA486BE00DDE95E /* Project object */;
+}
