@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +18,51 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Powered-by-Foursquare-one-color-600" translatesAutoresizingMaskIntoConstraints="NO" id="QzZ-mt-csj">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="K7Q-pb-ATr"/>
+                                    <constraint firstAttribute="width" secondItem="QzZ-mt-csj" secondAttribute="height" multiplier="6:1" id="Zl7-oh-3iv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="📸📍🐝🎉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjM-pC-ONO">
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="WJo-OU-G4J"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="l17-hu-uvE"/>
+                                    <constraint firstAttribute="width" constant="250" id="oaZ-GC-tzK"/>
+                                    <constraint firstAttribute="height" constant="65" id="unl-jk-BR7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCh-gQ-LED">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="CI8-Nm-Eir"/>
+                                    <constraint firstAttribute="width" constant="102" id="UPg-nR-IwM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AjM-pC-ONO" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-73" id="0Lw-eW-qzp"/>
+                            <constraint firstItem="nCh-gQ-LED" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="1ra-hF-CDM"/>
+                            <constraint firstItem="QzZ-mt-csj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6xo-1g-fAc"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="QzZ-mt-csj" secondAttribute="bottom" id="EsT-Rc-f1e"/>
+                            <constraint firstItem="AjM-pC-ONO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="W1X-6I-uO1"/>
+                            <constraint firstItem="nCh-gQ-LED" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="byz-pw-GMd"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Powered-by-Foursquare-one-color-600" width="600" height="100"/>
+    </resources>
 </document>

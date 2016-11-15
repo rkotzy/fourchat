@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Kingfisher (3.1.1)
+  - SwiftLocation (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Kingfisher (~> 3.0)
+  - SwiftLocation (~> 1.1.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Kingfisher: 12b755ae697cc9f0fd3e550db8417fa1233e09ab
+  SwiftLocation: f1bf5acb7992dd96c6f773c383f9c0479f07727d
+
+PODFILE CHECKSUM: 19b2920bc3d356064f7a399fc220096e5c044cb2
+
+COCOAPODS: 1.0.0

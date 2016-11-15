@@ -7,13 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C01870232AC01E32828953E /* Pods_Fourchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3431EFAA435EC1582C24F7 /* Pods_Fourchat.framework */; };
+		1092270413A8010946B393B5 /* Pods_FourchatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1441B63400B49906237F16 /* Pods_FourchatTests.framework */; };
+		341624A11DB56C8200659FD4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341624A01DB56C8100659FD4 /* MapView.swift */; };
+		341624A31DB56D0B00659FD4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341624A21DB56D0B00659FD4 /* MapKit.framework */; };
+		341624A71DB5761400659FD4 /* Checkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341624A61DB5761400659FD4 /* Checkin.swift */; };
+		341624A91DB581F400659FD4 /* EmojiPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341624A81DB581F400659FD4 /* EmojiPin.swift */; };
+		341624AB1DB587C700659FD4 /* EmojiAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341624AA1DB587C700659FD4 /* EmojiAnnotationView.swift */; };
+		341624AF1DB5909700659FD4 /* TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341624AE1DB5909700659FD4 /* TimeAgo.swift */; };
+		341624B31DB5E54600659FD4 /* FriendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341624B21DB5E54600659FD4 /* FriendCollectionViewCell.swift */; };
+		341624B71DB6D60900659FD4 /* EmojiPinCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341624B61DB6D60900659FD4 /* EmojiPinCalloutView.swift */; };
+		341624B91DB6D61500659FD4 /* EmojiPinCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341624B81DB6D61500659FD4 /* EmojiPinCalloutView.xib */; };
+		342364591DA5BD5C0097C5A4 /* CameraEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342364511DA5BD5C0097C5A4 /* CameraEngine.swift */; };
+		3423645A1DA5BD5C0097C5A4 /* CameraEngineCaptureOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342364521DA5BD5C0097C5A4 /* CameraEngineCaptureOutput.swift */; };
+		3423645B1DA5BD5C0097C5A4 /* CameraEngineDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342364531DA5BD5C0097C5A4 /* CameraEngineDevice.swift */; };
+		3423645C1DA5BD5C0097C5A4 /* CameraEngineDeviceInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342364541DA5BD5C0097C5A4 /* CameraEngineDeviceInput.swift */; };
+		3423645D1DA5BD5C0097C5A4 /* CameraEngineFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342364551DA5BD5C0097C5A4 /* CameraEngineFileManager.swift */; };
+		3423645E1DA5BD5C0097C5A4 /* CameraEngineGifEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342364561DA5BD5C0097C5A4 /* CameraEngineGifEncoder.swift */; };
+		3423645F1DA5BD5C0097C5A4 /* CameraEngineMetadataOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342364571DA5BD5C0097C5A4 /* CameraEngineMetadataOutput.swift */; };
+		342364601DA5BD5C0097C5A4 /* CameraEngineVideoEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342364581DA5BD5C0097C5A4 /* CameraEngineVideoEncoder.swift */; };
 		349EB8A11DA486BE00DDE95E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8A01DA486BE00DDE95E /* AppDelegate.swift */; };
-		349EB8A31DA486BE00DDE95E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8A21DA486BE00DDE95E /* ViewController.swift */; };
 		349EB8A61DA486BE00DDE95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349EB8A41DA486BE00DDE95E /* Main.storyboard */; };
 		349EB8A81DA486BE00DDE95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349EB8A71DA486BE00DDE95E /* Assets.xcassets */; };
 		349EB8AB1DA486BE00DDE95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349EB8A91DA486BE00DDE95E /* LaunchScreen.storyboard */; };
 		349EB8B61DA486BE00DDE95E /* FourchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8B51DA486BE00DDE95E /* FourchatTests.swift */; };
 		349EB8C11DA486BE00DDE95E /* FourchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8C01DA486BE00DDE95E /* FourchatUITests.swift */; };
+		349EB8DC1DA48B8400DDE95E /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8DB1DA48B8400DDE95E /* Global.swift */; };
+		349EB8E51DA48FA400DDE95E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8E31DA48FA400DDE95E /* AuthViewController.swift */; };
+		349EB8E61DA48FA400DDE95E /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349EB8E41DA48FA400DDE95E /* AuthViewController.xib */; };
+		349EB8F11DA4951D00DDE95E /* FoursquareAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8EE1DA4951D00DDE95E /* FoursquareAPIClient.swift */; };
+		349EB8F21DA4951D00DDE95E /* FoursquareAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8EF1DA4951D00DDE95E /* FoursquareAuthClient.swift */; };
+		349EB8F31DA4951D00DDE95E /* FoursquareAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB8F01DA4951D00DDE95E /* FoursquareAuthViewController.swift */; };
+		349EB92B1DA4A23400DDE95E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB92A1DA4A23400DDE95E /* CameraViewController.swift */; };
+		34A36A271DBEB01F008EAA7A /* CheckinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A36A261DBEB01F008EAA7A /* CheckinView.swift */; };
+		34A36A291DBEB4E7008EAA7A /* CheckinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A36A281DBEB4E7008EAA7A /* CheckinCell.swift */; };
+		34AECE261DA4A8F90072E1C4 /* FoursquareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE251DA4A8F90072E1C4 /* FoursquareManager.swift */; };
+		34AECE281DA4C5B40072E1C4 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE271DA4C5B40072E1C4 /* SwiftyJSON.swift */; };
+		34AECE2A1DA4C66E0072E1C4 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE291DA4C66E0072E1C4 /* Venue.swift */; };
+		34AECE301DA4C8360072E1C4 /* SnapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE2F1DA4C8360072E1C4 /* SnapButton.swift */; };
+		34AECE321DA4D1F70072E1C4 /* CameraCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE311DA4D1F70072E1C4 /* CameraCaptureView.swift */; };
+		34AECE341DA4D9C20072E1C4 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE331DA4D9C20072E1C4 /* CameraPreviewView.swift */; };
+		34AECE361DA4DAAA0072E1C4 /* ClosePreviewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE351DA4DAAA0072E1C4 /* ClosePreviewButton.swift */; };
+		34AECE3A1DA567B70072E1C4 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE391DA567B70072E1C4 /* UPCarouselFlowLayout.swift */; };
+		34AECE3F1DA56E370072E1C4 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE3D1DA56E370072E1C4 /* CarouselCollectionViewCell.swift */; };
+		34AECE421DA57F4C0072E1C4 /* 4sq_categories-emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE411DA57F4C0072E1C4 /* 4sq_categories-emoji.swift */; };
+		34AECE461DA583D50072E1C4 /* Neutra Display Titling.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34AECE451DA583B50072E1C4 /* Neutra Display Titling.ttf */; };
+		34AECE4C1DA588AD0072E1C4 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE471DA588AD0072E1C4 /* Enum.swift */; };
+		34AECE4D1DA588AD0072E1C4 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 34AECE491DA588AD0072E1C4 /* FontAwesome.otf */; };
+		34AECE4E1DA588AD0072E1C4 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE4A1DA588AD0072E1C4 /* FontAwesome.swift */; };
+		34AECE4F1DA588AD0072E1C4 /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE4B1DA588AD0072E1C4 /* FontAwesomeView.swift */; };
+		34AECE521DA58C3A0072E1C4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE511DA58C3A0072E1C4 /* PageViewController.swift */; };
+		34AECE541DA595670072E1C4 /* TipRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AECE531DA595670072E1C4 /* TipRatingView.swift */; };
+		F11039D5842AFD0DDCD65773 /* Pods_FourchatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47F72A6E889E8541D6B53D8 /* Pods_FourchatUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +79,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		341624A01DB56C8100659FD4 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		341624A21DB56D0B00659FD4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		341624A61DB5761400659FD4 /* Checkin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkin.swift; sourceTree = "<group>"; };
+		341624A81DB581F400659FD4 /* EmojiPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiPin.swift; sourceTree = "<group>"; };
+		341624AA1DB587C700659FD4 /* EmojiAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiAnnotationView.swift; sourceTree = "<group>"; };
+		341624AE1DB5909700659FD4 /* TimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeAgo.swift; sourceTree = "<group>"; };
+		341624B21DB5E54600659FD4 /* FriendCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewCell.swift; sourceTree = "<group>"; };
+		341624B61DB6D60900659FD4 /* EmojiPinCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiPinCalloutView.swift; sourceTree = "<group>"; };
+		341624B81DB6D61500659FD4 /* EmojiPinCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiPinCalloutView.xib; sourceTree = "<group>"; };
+		342364511DA5BD5C0097C5A4 /* CameraEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraEngine.swift; sourceTree = "<group>"; };
+		342364521DA5BD5C0097C5A4 /* CameraEngineCaptureOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraEngineCaptureOutput.swift; sourceTree = "<group>"; };
+		342364531DA5BD5C0097C5A4 /* CameraEngineDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraEngineDevice.swift; sourceTree = "<group>"; };
+		342364541DA5BD5C0097C5A4 /* CameraEngineDeviceInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraEngineDeviceInput.swift; sourceTree = "<group>"; };
+		342364551DA5BD5C0097C5A4 /* CameraEngineFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraEngineFileManager.swift; sourceTree = "<group>"; };
+		342364561DA5BD5C0097C5A4 /* CameraEngineGifEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraEngineGifEncoder.swift; sourceTree = "<group>"; };
+		342364571DA5BD5C0097C5A4 /* CameraEngineMetadataOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraEngineMetadataOutput.swift; sourceTree = "<group>"; };
+		342364581DA5BD5C0097C5A4 /* CameraEngineVideoEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraEngineVideoEncoder.swift; sourceTree = "<group>"; };
 		349EB89D1DA486BE00DDE95E /* Fourchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fourchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349EB8A01DA486BE00DDE95E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		349EB8A21DA486BE00DDE95E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		349EB8A51DA486BE00DDE95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		349EB8A71DA486BE00DDE95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		349EB8AA1DA486BE00DDE95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +108,42 @@
 		349EB8BC1DA486BE00DDE95E /* FourchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		349EB8C01DA486BE00DDE95E /* FourchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourchatUITests.swift; sourceTree = "<group>"; };
 		349EB8C21DA486BE00DDE95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349EB8DB1DA48B8400DDE95E /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		349EB8E31DA48FA400DDE95E /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		349EB8E41DA48FA400DDE95E /* AuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
+		349EB8EE1DA4951D00DDE95E /* FoursquareAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareAPIClient.swift; sourceTree = "<group>"; };
+		349EB8EF1DA4951D00DDE95E /* FoursquareAuthClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareAuthClient.swift; sourceTree = "<group>"; };
+		349EB8F01DA4951D00DDE95E /* FoursquareAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareAuthViewController.swift; sourceTree = "<group>"; };
+		349EB92A1DA4A23400DDE95E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		34A36A261DBEB01F008EAA7A /* CheckinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckinView.swift; sourceTree = "<group>"; };
+		34A36A281DBEB4E7008EAA7A /* CheckinCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckinCell.swift; sourceTree = "<group>"; };
+		34AECE251DA4A8F90072E1C4 /* FoursquareManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareManager.swift; sourceTree = "<group>"; };
+		34AECE271DA4C5B40072E1C4 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		34AECE291DA4C66E0072E1C4 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		34AECE2F1DA4C8360072E1C4 /* SnapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapButton.swift; sourceTree = "<group>"; };
+		34AECE311DA4D1F70072E1C4 /* CameraCaptureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraCaptureView.swift; sourceTree = "<group>"; };
+		34AECE331DA4D9C20072E1C4 /* CameraPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		34AECE351DA4DAAA0072E1C4 /* ClosePreviewButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosePreviewButton.swift; sourceTree = "<group>"; };
+		34AECE391DA567B70072E1C4 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		34AECE3D1DA56E370072E1C4 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		34AECE411DA57F4C0072E1C4 /* 4sq_categories-emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4sq_categories-emoji.swift"; sourceTree = "<group>"; };
+		34AECE451DA583B50072E1C4 /* Neutra Display Titling.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neutra Display Titling.ttf"; sourceTree = "<group>"; };
+		34AECE471DA588AD0072E1C4 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		34AECE481DA588AD0072E1C4 /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
+		34AECE491DA588AD0072E1C4 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		34AECE4A1DA588AD0072E1C4 /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
+		34AECE4B1DA588AD0072E1C4 /* FontAwesomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeView.swift; sourceTree = "<group>"; };
+		34AECE511DA58C3A0072E1C4 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		34AECE531DA595670072E1C4 /* TipRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipRatingView.swift; sourceTree = "<group>"; };
+		546652925162517439D06536 /* Pods-FourchatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourchatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FourchatTests/Pods-FourchatTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F3431EFAA435EC1582C24F7 /* Pods_Fourchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fourchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70204DD9ECE04080B253E272 /* Pods-Fourchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fourchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fourchat/Pods-Fourchat.debug.xcconfig"; sourceTree = "<group>"; };
+		9E69091032F2FAF051A5A92F /* Pods-FourchatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourchatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FourchatUITests/Pods-FourchatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC1441B63400B49906237F16 /* Pods_FourchatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FourchatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FE4D36770411F8FC3DCEC1 /* Pods-FourchatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourchatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FourchatUITests/Pods-FourchatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ECA0CDA0C1D7B3C081EE6023 /* Pods-Fourchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fourchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fourchat/Pods-Fourchat.release.xcconfig"; sourceTree = "<group>"; };
+		F47F72A6E889E8541D6B53D8 /* Pods_FourchatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FourchatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2B96339E4800B4420BBF92 /* Pods-FourchatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourchatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FourchatTests/Pods-FourchatTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +151,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341624A31DB56D0B00659FD4 /* MapKit.framework in Frameworks */,
+				0C01870232AC01E32828953E /* Pods_Fourchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1092270413A8010946B393B5 /* Pods_FourchatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +168,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11039D5842AFD0DDCD65773 /* Pods_FourchatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341624A41DB56D6600659FD4 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				349EB92A1DA4A23400DDE95E /* CameraViewController.swift */,
+				34AECE311DA4D1F70072E1C4 /* CameraCaptureView.swift */,
+				34AECE331DA4D9C20072E1C4 /* CameraPreviewView.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		341624A51DB56D6F00659FD4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				349EB8E31DA48FA400DDE95E /* AuthViewController.swift */,
+				349EB8E41DA48FA400DDE95E /* AuthViewController.xib */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		342364631DA5DB270097C5A4 /* CameraEngine */ = {
+			isa = PBXGroup;
+			children = (
+				342364511DA5BD5C0097C5A4 /* CameraEngine.swift */,
+				342364521DA5BD5C0097C5A4 /* CameraEngineCaptureOutput.swift */,
+				342364531DA5BD5C0097C5A4 /* CameraEngineDevice.swift */,
+				342364541DA5BD5C0097C5A4 /* CameraEngineDeviceInput.swift */,
+				342364551DA5BD5C0097C5A4 /* CameraEngineFileManager.swift */,
+				342364561DA5BD5C0097C5A4 /* CameraEngineGifEncoder.swift */,
+				342364571DA5BD5C0097C5A4 /* CameraEngineMetadataOutput.swift */,
+				342364581DA5BD5C0097C5A4 /* CameraEngineVideoEncoder.swift */,
+			);
+			name = CameraEngine;
+			sourceTree = "<group>";
+		};
 		349EB8941DA486BE00DDE95E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +216,8 @@
 				349EB8B41DA486BE00DDE95E /* FourchatTests */,
 				349EB8BF1DA486BE00DDE95E /* FourchatUITests */,
 				349EB89E1DA486BE00DDE95E /* Products */,
+				68DF3F3C9C567E2C09B182BA /* Pods */,
+				55B18C558EECDD59CE72249F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +234,10 @@
 		349EB89F1DA486BE00DDE95E /* Fourchat */ = {
 			isa = PBXGroup;
 			children = (
-				349EB8A01DA486BE00DDE95E /* AppDelegate.swift */,
-				349EB8A21DA486BE00DDE95E /* ViewController.swift */,
-				349EB8A41DA486BE00DDE95E /* Main.storyboard */,
-				349EB8A71DA486BE00DDE95E /* Assets.xcassets */,
-				349EB8A91DA486BE00DDE95E /* LaunchScreen.storyboard */,
-				349EB8AC1DA486BE00DDE95E /* Info.plist */,
+				34AECE2B1DA4C6750072E1C4 /* Model */,
+				34AECE2C1DA4C6810072E1C4 /* View */,
+				34AECE2D1DA4C68D0072E1C4 /* Controller */,
+				34AECE2E1DA4C6A30072E1C4 /* Resources */,
 			);
 			path = Fourchat;
 			sourceTree = "<group>";
@@ -125,6 +260,120 @@
 			path = FourchatUITests;
 			sourceTree = "<group>";
 		};
+		349EB8ED1DA4905F00DDE95E /* FoursquareAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				349EB8EE1DA4951D00DDE95E /* FoursquareAPIClient.swift */,
+				349EB8EF1DA4951D00DDE95E /* FoursquareAuthClient.swift */,
+				349EB8F01DA4951D00DDE95E /* FoursquareAuthViewController.swift */,
+			);
+			name = FoursquareAPIClient;
+			sourceTree = "<group>";
+		};
+		349EB8F41DA4987800DDE95E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				341624AE1DB5909700659FD4 /* TimeAgo.swift */,
+				342364631DA5DB270097C5A4 /* CameraEngine */,
+				34AECE501DA588B30072E1C4 /* FontAwesome */,
+				34AECE451DA583B50072E1C4 /* Neutra Display Titling.ttf */,
+				34AECE391DA567B70072E1C4 /* UPCarouselFlowLayout.swift */,
+				34AECE271DA4C5B40072E1C4 /* SwiftyJSON.swift */,
+				349EB8ED1DA4905F00DDE95E /* FoursquareAPIClient */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		34AECE2B1DA4C6750072E1C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				349EB8DB1DA48B8400DDE95E /* Global.swift */,
+				34AECE251DA4A8F90072E1C4 /* FoursquareManager.swift */,
+				34AECE291DA4C66E0072E1C4 /* Venue.swift */,
+				341624A61DB5761400659FD4 /* Checkin.swift */,
+				34AECE411DA57F4C0072E1C4 /* 4sq_categories-emoji.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		34AECE2C1DA4C6810072E1C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34AECE511DA58C3A0072E1C4 /* PageViewController.swift */,
+				341624A51DB56D6F00659FD4 /* Auth */,
+				341624A41DB56D6600659FD4 /* Camera */,
+				341624A01DB56C8100659FD4 /* MapView.swift */,
+				34A36A261DBEB01F008EAA7A /* CheckinView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		34AECE2D1DA4C68D0072E1C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34AECE2F1DA4C8360072E1C4 /* SnapButton.swift */,
+				34A36A281DBEB4E7008EAA7A /* CheckinCell.swift */,
+				34AECE351DA4DAAA0072E1C4 /* ClosePreviewButton.swift */,
+				34AECE531DA595670072E1C4 /* TipRatingView.swift */,
+				34AECE3D1DA56E370072E1C4 /* CarouselCollectionViewCell.swift */,
+				341624B21DB5E54600659FD4 /* FriendCollectionViewCell.swift */,
+				341624A81DB581F400659FD4 /* EmojiPin.swift */,
+				341624AA1DB587C700659FD4 /* EmojiAnnotationView.swift */,
+				341624B61DB6D60900659FD4 /* EmojiPinCalloutView.swift */,
+				341624B81DB6D61500659FD4 /* EmojiPinCalloutView.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		34AECE2E1DA4C6A30072E1C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				349EB8A41DA486BE00DDE95E /* Main.storyboard */,
+				349EB8A01DA486BE00DDE95E /* AppDelegate.swift */,
+				349EB8A71DA486BE00DDE95E /* Assets.xcassets */,
+				349EB8A91DA486BE00DDE95E /* LaunchScreen.storyboard */,
+				349EB8AC1DA486BE00DDE95E /* Info.plist */,
+				349EB8F41DA4987800DDE95E /* Vendor */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		34AECE501DA588B30072E1C4 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				34AECE471DA588AD0072E1C4 /* Enum.swift */,
+				34AECE481DA588AD0072E1C4 /* FontAwesome.h */,
+				34AECE491DA588AD0072E1C4 /* FontAwesome.otf */,
+				34AECE4A1DA588AD0072E1C4 /* FontAwesome.swift */,
+				34AECE4B1DA588AD0072E1C4 /* FontAwesomeView.swift */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
+		55B18C558EECDD59CE72249F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				341624A21DB56D0B00659FD4 /* MapKit.framework */,
+				5F3431EFAA435EC1582C24F7 /* Pods_Fourchat.framework */,
+				AC1441B63400B49906237F16 /* Pods_FourchatTests.framework */,
+				F47F72A6E889E8541D6B53D8 /* Pods_FourchatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68DF3F3C9C567E2C09B182BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70204DD9ECE04080B253E272 /* Pods-Fourchat.debug.xcconfig */,
+				ECA0CDA0C1D7B3C081EE6023 /* Pods-Fourchat.release.xcconfig */,
+				FA2B96339E4800B4420BBF92 /* Pods-FourchatTests.debug.xcconfig */,
+				546652925162517439D06536 /* Pods-FourchatTests.release.xcconfig */,
+				9E69091032F2FAF051A5A92F /* Pods-FourchatUITests.debug.xcconfig */,
+				E9FE4D36770411F8FC3DCEC1 /* Pods-FourchatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +381,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 349EB8C51DA486BE00DDE95E /* Build configuration list for PBXNativeTarget "Fourchat" */;
 			buildPhases = (
+				4DFD5C0007964C60CCA3D7BB /* 📦 Check Pods Manifest.lock */,
 				349EB8991DA486BE00DDE95E /* Sources */,
 				349EB89A1DA486BE00DDE95E /* Frameworks */,
 				349EB89B1DA486BE00DDE95E /* Resources */,
+				CCAEE6A5C28EE6D334B07045 /* 📦 Embed Pods Frameworks */,
+				A6445AF6727D8FE233DA30B1 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +401,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 349EB8C81DA486BE00DDE95E /* Build configuration list for PBXNativeTarget "FourchatTests" */;
 			buildPhases = (
+				D9E37AC523719FE7B408CD27 /* 📦 Check Pods Manifest.lock */,
 				349EB8AD1DA486BE00DDE95E /* Sources */,
 				349EB8AE1DA486BE00DDE95E /* Frameworks */,
 				349EB8AF1DA486BE00DDE95E /* Resources */,
+				B9846EAB8FA7DD89F81D4FA8 /* 📦 Embed Pods Frameworks */,
+				F63D8C1415AD9A6CC9E0D801 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +422,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 349EB8CB1DA486BE00DDE95E /* Build configuration list for PBXNativeTarget "FourchatUITests" */;
 			buildPhases = (
+				5EBAFCC2CBA4CF22E67DAFF1 /* 📦 Check Pods Manifest.lock */,
 				349EB8B81DA486BE00DDE95E /* Sources */,
 				349EB8B91DA486BE00DDE95E /* Frameworks */,
 				349EB8BA1DA486BE00DDE95E /* Resources */,
+				E5C446EBA0714D8C3EA8EED9 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,15 +450,19 @@
 				TargetAttributes = {
 					349EB89C1DA486BE00DDE95E = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YH39SE59AQ;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					349EB8B01DA486BE00DDE95E = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 349EB89C1DA486BE00DDE95E;
 					};
 					349EB8BB1DA486BE00DDE95E = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 349EB89C1DA486BE00DDE95E;
 					};
@@ -232,7 +493,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341624B91DB6D61500659FD4 /* EmojiPinCalloutView.xib in Resources */,
+				349EB8E61DA48FA400DDE95E /* AuthViewController.xib in Resources */,
 				349EB8AB1DA486BE00DDE95E /* LaunchScreen.storyboard in Resources */,
+				34AECE461DA583D50072E1C4 /* Neutra Display Titling.ttf in Resources */,
+				34AECE4D1DA588AD0072E1C4 /* FontAwesome.otf in Resources */,
 				349EB8A81DA486BE00DDE95E /* Assets.xcassets in Resources */,
 				349EB8A61DA486BE00DDE95E /* Main.storyboard in Resources */,
 			);
@@ -254,13 +519,173 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DFD5C0007964C60CCA3D7BB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5EBAFCC2CBA4CF22E67DAFF1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6445AF6727D8FE233DA30B1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fourchat/Pods-Fourchat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9846EAB8FA7DD89F81D4FA8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FourchatTests/Pods-FourchatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCAEE6A5C28EE6D334B07045 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fourchat/Pods-Fourchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E37AC523719FE7B408CD27 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C446EBA0714D8C3EA8EED9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FourchatUITests/Pods-FourchatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F63D8C1415AD9A6CC9E0D801 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FourchatTests/Pods-FourchatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		349EB8991DA486BE00DDE95E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349EB8A31DA486BE00DDE95E /* ViewController.swift in Sources */,
+				34A36A271DBEB01F008EAA7A /* CheckinView.swift in Sources */,
+				349EB8E51DA48FA400DDE95E /* AuthViewController.swift in Sources */,
+				3423645C1DA5BD5C0097C5A4 /* CameraEngineDeviceInput.swift in Sources */,
+				34AECE3F1DA56E370072E1C4 /* CarouselCollectionViewCell.swift in Sources */,
+				34AECE301DA4C8360072E1C4 /* SnapButton.swift in Sources */,
+				34AECE2A1DA4C66E0072E1C4 /* Venue.swift in Sources */,
+				342364601DA5BD5C0097C5A4 /* CameraEngineVideoEncoder.swift in Sources */,
+				341624A91DB581F400659FD4 /* EmojiPin.swift in Sources */,
+				34AECE421DA57F4C0072E1C4 /* 4sq_categories-emoji.swift in Sources */,
+				341624AB1DB587C700659FD4 /* EmojiAnnotationView.swift in Sources */,
+				3423645D1DA5BD5C0097C5A4 /* CameraEngineFileManager.swift in Sources */,
+				349EB8F31DA4951D00DDE95E /* FoursquareAuthViewController.swift in Sources */,
+				34AECE261DA4A8F90072E1C4 /* FoursquareManager.swift in Sources */,
+				341624A11DB56C8200659FD4 /* MapView.swift in Sources */,
+				341624B71DB6D60900659FD4 /* EmojiPinCalloutView.swift in Sources */,
+				3423645B1DA5BD5C0097C5A4 /* CameraEngineDevice.swift in Sources */,
+				34AECE361DA4DAAA0072E1C4 /* ClosePreviewButton.swift in Sources */,
+				349EB8F11DA4951D00DDE95E /* FoursquareAPIClient.swift in Sources */,
+				341624AF1DB5909700659FD4 /* TimeAgo.swift in Sources */,
+				34AECE321DA4D1F70072E1C4 /* CameraCaptureView.swift in Sources */,
+				349EB8F21DA4951D00DDE95E /* FoursquareAuthClient.swift in Sources */,
+				34AECE4F1DA588AD0072E1C4 /* FontAwesomeView.swift in Sources */,
+				34A36A291DBEB4E7008EAA7A /* CheckinCell.swift in Sources */,
+				349EB92B1DA4A23400DDE95E /* CameraViewController.swift in Sources */,
+				34AECE281DA4C5B40072E1C4 /* SwiftyJSON.swift in Sources */,
+				3423645A1DA5BD5C0097C5A4 /* CameraEngineCaptureOutput.swift in Sources */,
+				342364591DA5BD5C0097C5A4 /* CameraEngine.swift in Sources */,
+				341624B31DB5E54600659FD4 /* FriendCollectionViewCell.swift in Sources */,
+				34AECE341DA4D9C20072E1C4 /* CameraPreviewView.swift in Sources */,
+				3423645E1DA5BD5C0097C5A4 /* CameraEngineGifEncoder.swift in Sources */,
+				34AECE521DA58C3A0072E1C4 /* PageViewController.swift in Sources */,
+				34AECE4C1DA588AD0072E1C4 /* Enum.swift in Sources */,
+				34AECE4E1DA588AD0072E1C4 /* FontAwesome.swift in Sources */,
 				349EB8A11DA486BE00DDE95E /* AppDelegate.swift in Sources */,
+				3423645F1DA5BD5C0097C5A4 /* CameraEngineMetadataOutput.swift in Sources */,
+				34AECE541DA595670072E1C4 /* TipRatingView.swift in Sources */,
+				341624A71DB5761400659FD4 /* Checkin.swift in Sources */,
+				349EB8DC1DA48B8400DDE95E /* Global.swift in Sources */,
+				34AECE3A1DA567B70072E1C4 /* UPCarouselFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,9 +833,13 @@
 		};
 		349EB8C61DA486BE00DDE95E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70204DD9ECE04080B253E272 /* Pods-Fourchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YH39SE59AQ;
 				INFOPLIST_FILE = Fourchat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kotz.Fourchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,9 +849,13 @@
 		};
 		349EB8C71DA486BE00DDE95E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA0CDA0C1D7B3C081EE6023 /* Pods-Fourchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YH39SE59AQ;
 				INFOPLIST_FILE = Fourchat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kotz.Fourchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +865,7 @@
 		};
 		349EB8C91DA486BE00DDE95E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2B96339E4800B4420BBF92 /* Pods-FourchatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +880,7 @@
 		};
 		349EB8CA1DA486BE00DDE95E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546652925162517439D06536 /* Pods-FourchatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +895,7 @@
 		};
 		349EB8CC1DA486BE00DDE95E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E69091032F2FAF051A5A92F /* Pods-FourchatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FourchatUITests/Info.plist;
@@ -473,6 +909,7 @@
 		};
 		349EB8CD1DA486BE00DDE95E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9FE4D36770411F8FC3DCEC1 /* Pods-FourchatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FourchatUITests/Info.plist;
@@ -503,6 +940,7 @@
 				349EB8C71DA486BE00DDE95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		349EB8C81DA486BE00DDE95E /* Build configuration list for PBXNativeTarget "FourchatTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +949,7 @@
 				349EB8CA1DA486BE00DDE95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		349EB8CB1DA486BE00DDE95E /* Build configuration list for PBXNativeTarget "FourchatUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +958,7 @@
 				349EB8CD1DA486BE00DDE95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

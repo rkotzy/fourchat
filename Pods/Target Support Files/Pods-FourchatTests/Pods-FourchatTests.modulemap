@@ -1,0 +1,6 @@
+framework module Pods_FourchatTests {
+  umbrella header "Pods-FourchatTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
