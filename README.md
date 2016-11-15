@@ -18,3 +18,5 @@ Snapchat style interface for checking-in on Swarm
 * Swipe right on the camera before taking a photo to check-in without a picture
 * Swipe left on the camera before taking a photo to browse your friends check-ins on a map
 
+![Demo](demo.gif)
+
